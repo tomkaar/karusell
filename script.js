@@ -1,7 +1,7 @@
 window.onload = function() {
-	var left = document.getElementsByClassName("left");
-	var right = document.getElementsByClassName("right");
-	var carousel = document.getElementsByClassName("carousel");
+	var left = document.getElementById("left");
+	var right = document.getElementById("right");
+	var carousel = document.getElementById("carousel");
 
 	var currentSpin = 0;
 
@@ -16,13 +16,13 @@ window.onload = function() {
 	}
 
 	function spinLeft() {
-		currentSpine -= 40;
-		carousel.style.transform = "rotateY("+currentSpin+")";
+		currentSpin -= 40;
+		carousel.style.transform = "rotateY("+currentSpin+"deg)";
 	}
 
 	function spinRight() {
-		currentSpine += 40;
-		carousel.style.transform = "rotateY("+currentSpin+")";
+		currentSpin += 40;
+		carousel.style.transform = "rotateY("+currentSpin+"deg)";
 	}
 
 
