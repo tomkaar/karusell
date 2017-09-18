@@ -19,48 +19,52 @@ body, html {
 .carousel {
 	display: block;
 	position: absolute;
-	transform-style: preserve-3d;
 	width: 100%;
 	background: rgba(255, 255, 255, 0.5);
 	border: 1px solid black;
+	transform-style: preserve-3d;
 }
 
 .a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8, .a9 {
+	position: absolute;
+	top: 0;
 	width: 196px;
+	min-height: 20px;
+	background: pink;
 }
 
 .a1 {
-	transform: rotateY(0deg);
+	transform: rotateY(0deg) translateZ(196px);
 }
 
 .a2 {
-	transform: rotateY(40deg);
+	transform: rotateY(40deg)translateZ(196px);
 }
 
 .a3 {
-	transform: rotateY(80deg);
+	transform: rotateY(80deg)translateZ(196px);
 }
 
 .a4 {
-	transform: rotateY(120deg);
+	transform: rotateY(120deg)translateZ(196px);
 }
 
 .a5 {
-	transform: rotateY(160deg);
+	transform: rotateY(160deg)translateZ(196px);
 }
 
 .a6 {
-	transform: rotateY(200deg);
+	transform: rotateY(200deg)translateZ(196px);
 }
 
 .a7 {
-	transform: rotateY(240deg);
+	transform: rotateY(240deg)translateZ(196px);
 }
 
 .a8 {
-	transform: rotateY(280deg);
+	transform: rotateY(280deg)translateZ(196px);
 }
 
 .a9 {
-	transform: rotateY(320deg);
+	transform: rotateY(320deg) translateZ(196px);
 }
