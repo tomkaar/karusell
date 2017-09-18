@@ -40,6 +40,7 @@ body, html {
 	width: 250px;
 	min-height: 130px;
 	background: rgba(255,255,255,0.5);
+	border: 1px solid black;
 	transition: .2s all ease;
 }
 
@@ -48,35 +49,35 @@ body, html {
 }
 
 #a2 {
-	transform: rotateY(40deg)translateZ(392px);
+	transform: rotateY(40deg)translateZ(392px) scale(1);
 }
 
 #a3 {
-	transform: rotateY(80deg)translateZ(392px);
+	transform: rotateY(80deg)translateZ(392px) scale(1);
 }
 
 #a4 {
-	transform: rotateY(120deg)translateZ(392px);
+	transform: rotateY(120deg)translateZ(392px) scale(1);
 }
 
 #a5 {
-	transform: rotateY(160deg)translateZ(392px);
+	transform: rotateY(160deg)translateZ(392px) scale(1);
 }
 
 #a6 {
-	transform: rotateY(200deg)translateZ(392px);
+	transform: rotateY(200deg)translateZ(392px) scale(1);
 }
 
 #a7 {
-	transform: rotateY(240deg)translateZ(392px);
+	transform: rotateY(240deg)translateZ(392px) scale(1);
 }
 
 #a8 {
-	transform: rotateY(280deg)translateZ(392px);
+	transform: rotateY(280deg)translateZ(392px) scale(1);
 }
 
 #a9 {
-	transform: rotateY(320deg) translateZ(392px);
+	transform: rotateY(320deg) translateZ(392px) scale(1);
 }
 
 #left, #right {
