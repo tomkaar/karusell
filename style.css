@@ -16,13 +16,22 @@ body, html {
 	transform: translate(-50%, -50%);
 }
 
-.carousel {
+#carousel {
 	display: block;
 	position: absolute;
 	width: 100%;
 	background: rgba(255, 255, 255, 0.5);
 	border: 1px solid black;
 	transform-style: preserve-3d;
+	transform: rotateY(0deg);
+	transition: 0.2s all ease;
+}
+
+#left{
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	left: 0;
 }
 
 .a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8, .a9 {
