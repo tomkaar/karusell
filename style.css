@@ -27,6 +27,15 @@ body, html {
 		line-height: 35px;
 		text-align: center;
 		cursor: pointer;
+		border-radius: 50%;
+	}
+	#left:hover,
+	#right:hover{
+		background: rgba(255,255,255,0.8);
+	}
+	#left:active,
+	#right:active{
+		background: rgba(255,255,255,0.8);
 	}
 		#left{
 			left: 20px;
