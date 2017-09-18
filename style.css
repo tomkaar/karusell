@@ -33,50 +33,49 @@ body, html {
 	left: 0;
 }
 
-.a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8, .a9 {
+#a1, #a2, #a3, #a4, #a5, #a6, #a7, #a8, #a9 {
 	position: absolute;
 	top: 0;
 	left: 0px;
 	width: 250px;
 	min-height: 130px;
 	background: rgba(255,255,255,0.5);
-	transform: scale(1);
 	transition: .2s all ease;
 }
 
-.a1 {
-	transform: rotateY(0deg) translateZ(392px);
+#a1 {
+	transform: rotateY(0deg) translateZ(392px) scale(1);
 }
 
-.a2 {
+#a2 {
 	transform: rotateY(40deg)translateZ(392px);
 }
 
-.a3 {
+#a3 {
 	transform: rotateY(80deg)translateZ(392px);
 }
 
-.a4 {
+#a4 {
 	transform: rotateY(120deg)translateZ(392px);
 }
 
-.a5 {
+#a5 {
 	transform: rotateY(160deg)translateZ(392px);
 }
 
-.a6 {
+#a6 {
 	transform: rotateY(200deg)translateZ(392px);
 }
 
-.a7 {
+#a7 {
 	transform: rotateY(240deg)translateZ(392px);
 }
 
-.a8 {
+#a8 {
 	transform: rotateY(280deg)translateZ(392px);
 }
 
-.a9 {
+#a9 {
 	transform: rotateY(320deg) translateZ(392px);
 }
 
