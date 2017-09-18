@@ -15,6 +15,18 @@ body, html {
 	perspective: 1000px;
 	transform: translate(-50%, -50%);
 }
+	#left{
+		position: absolute;
+		z-index: 99;
+		top: 50%;
+		left: 0;
+	}
+	#right{
+		position: absolute;
+		z-index: 99;
+		top: 50%;
+		right: 0;
+	}
 
 #carousel {
 	display: block;
@@ -25,22 +37,7 @@ body, html {
 	transform: rotateY(0deg);
 	transition: 0.2s all ease;
 }
-
-#left{
-	position: absolute;
-	z-index: 99;
-	top: 50%;
-	left: 0;
-}
-
-#right{
-	position: absolute;
-	z-index: 99;
-	top: 50%;
-	right: 0;
-}
-
-.a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8, .a9 {
+.side {
 	position: absolute;
 	top: 0;
 	left: 0px;
@@ -48,39 +45,20 @@ body, html {
 	min-height: 130px;
 	background: rgba(255,255,255,0.5);
 }
+	.a1 { transform: rotateY(0deg) translateZ(392px); }
 
-.a1 {
-	transform: rotateY(0deg) translateZ(392px);
-}
+	.a2 { transform: rotateY(40deg)translateZ(392px); }
 
-.a2 {
-	transform: rotateY(40deg)translateZ(392px);
-}
+	.a3 { transform: rotateY(80deg)translateZ(392px); }
 
-.a3 {
-	transform: rotateY(80deg)translateZ(392px);
-}
+	.a4 { transform: rotateY(120deg)translateZ(392px); }
 
-.a4 {
-	transform: rotateY(120deg)translateZ(392px);
-}
+	.a5 { transform: rotateY(160deg)translateZ(392px); }
 
-.a5 {
-	transform: rotateY(160deg)translateZ(392px);
-}
+	.a6 { transform: rotateY(200deg)translateZ(392px); }
 
-.a6 {
-	transform: rotateY(200deg)translateZ(392px);
-}
+	.a7 { transform: rotateY(240deg)translateZ(392px); }
 
-.a7 {
-	transform: rotateY(240deg)translateZ(392px);
-}
+	.a8 { transform: rotateY(280deg)translateZ(392px); }
 
-.a8 {
-	transform: rotateY(280deg)translateZ(392px);
-}
-
-.a9 {
-	transform: rotateY(320deg) translateZ(392px);
-}
+	.a9 { transform: rotateY(320deg) translateZ(392px); }
