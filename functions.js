@@ -16,19 +16,15 @@ document.onkeydown = checkKey;
 	function checkKey(e) {
 	e = e || window.event;
 	if (e.keyCode == '38') {
-	    console.log("Up");
 	    spinZero();
 	}
 	else if (e.keyCode == '40') {
-	    console.log("Down");
 	    spinOneSixty();
 	}
 	else if (e.keyCode == '37') {
-	    console.log("Left");
 	    spinLeft();
 	}
 	else if (e.keyCode == '39') {
-	    console.log("Right");
 	    spinRight();
 	}
 }
