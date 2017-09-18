@@ -14,14 +14,16 @@ window.onload = function() {
 		console.log("left");
 		spinRight();
 	}
+
+	function spinLeft() {
+		currentSpine -= 40;
+		carousel.style.transform = "rotateY("+currentSpin+")";
+	}
+
+	function spinRight() {
+		currentSpine += 40;
+		carousel.style.transform = "rotateY("+currentSpin+")";
+	}
+
+
 } // end onload
-
-function spinLeft() {
-	currentSpine -= 40;
-	carousel.style.transform = "rotateY("+currentSpin+")";
-}
-
-function spinRight() {
-	currentSpine += 40;
-	carousel.style.transform = "rotateY("+currentSpin+")";
-}
