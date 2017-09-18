@@ -22,18 +22,16 @@ body, html {
 	width: 100%;
 	border: 1px solid black;
 	transform-style: preserve-3d;
+	translate: rotateY(0deg);
+	transition: .7s;
 }
 
 .a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8, .a9 {
 	position: absolute;
 	top: 0;
-	width: 196px;
+	width: 240px;
 	min-height: 130px;
-<<<<<<< HEAD
 	background: rgba(255, 255, 255, 0.5);
-=======
-	background: pink;
->>>>>>> origin/tommys
 }
 
 .a1 {
@@ -70,4 +68,18 @@ body, html {
 
 .a9 {
 	transform: rotateY(320deg) translateZ(392px);
+}
+
+.left, .right {
+	color: white;
+	font-size: 50px;
+	position: absolute;
+}
+
+.left {
+	left: 20px;
+}
+
+.right {
+	left: 620px;
 }
