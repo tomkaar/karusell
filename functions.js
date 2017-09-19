@@ -23,7 +23,6 @@ document.onkeydown = checkKey;
 	e = e || window.event;
 	if (e.keyCode == '38') {
 	    spinRight();
-	    spinTo();
 	}
 	else if (e.keyCode == '40') {
 	    spinLeft();
